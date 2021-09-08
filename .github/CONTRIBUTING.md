@@ -20,10 +20,10 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 ## Submitting a pull request
 
 1. [Fork][fork] and clone the repository.
-<!-- 1. Configure and install the dependencies: `pnpm install`. -->
-<!-- 1. Make sure the tests pass on your machine: `pnpm test`. -->
+1. Configure and install the dependencies: `go build` or `cargo build`.
+1. Make sure the tests pass on your machine: `go test` or `cargo test`.
 1. Create a new branch: `git checkout -b my-branch-name`.
-1. Make your change<!-- , add tests, and make sure the tests still pass, make sure to also lint your project -->.
+1. Make your change, add tests, and make sure the tests still pass, make sure to also lint your project.
 1. Push to your fork and [submit a pull request][pr].
 1. Pat your self on the back and wait for your pull request to be reviewed and merged.
 
